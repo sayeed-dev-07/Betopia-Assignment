@@ -30,7 +30,7 @@
     @apply sm:text-[40px] text-4xl md:text-[56px] leading-tight font-semibold;
   }
   .section-padding {
-    @apply px-2 md:px-12 lg:px-24;
+    @apply px-2 md:px-6 lg:px-12;
   }
   .card-service {
     @apply max-w-[588px] w-full rounded-2xl border text-start flex items-start justify-between p-[12px] sm:p-[32px] border-[#ECECEC];
