@@ -22,16 +22,19 @@
     @apply flex flex-col items-center justify-center;
   }
 
-  .grid-center {
-    @apply grid place-items-center;
-  }
-
-  .absolute-center {
-    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
-  }
+  
   .button {
     @apply tracking-[-2%]  bg-secondary text-white rounded-[40px] font-[14px] border-[0px_3px_3px_0px] border-background cursor-pointer ;
   }
+  .card-statistic {
+    @apply sm:w-70 max-w-[450px] w-full sm:max-w-none h-41 rounded-2xl border border-[#ECECEC];
+  }
+  /* .card-statistic-p-2 {
+    @apply  ;
+  }
+  .card-statistic-p {
+    @apply  ;
+  } */
 
   .section-padding {
     @apply px-6 md:px-12 lg:px-24;
